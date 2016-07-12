@@ -77,7 +77,7 @@ for b_lp=1:b_it
             tic
             
             %% Calling the Heuristic subroutine
-            [sum_cap_nc(b_lp)]=fh_non_cau_eh_mex...
+            [sum_cap_nc(b_lp)]=lyapunov_non_causal...
                 (n,m,a_mod,theta_mod,tau_l,T,g,h,P_max,b_m,p_s,Eng_h,Q_avg,nH);
             
             toc
